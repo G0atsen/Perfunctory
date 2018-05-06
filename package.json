@@ -1,0 +1,35 @@
+{
+  "name": "perfunctory",
+  "version": "1.0.0",
+  "description": "A node.js powered AI that analyses community submitted lyrics for sentiment, emotion etc. Aims to draw infographics around this data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "lyrics",
+    "music",
+    "watson",
+    "IBM",
+    "AI"
+  ],
+  "author": "Keith Witelson",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^2.7.2",
+    "d3": "^5.1.0",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.10.0",
+    "node-gyp": "^3.6.2",
+    "nodemon": "^1.17.3",
+    "plotly": "^1.0.6",
+    "plotly.js": "^1.37.1",
+    "rebuild": "^0.1.2",
+    "watson-developer-cloud": "^3.4.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
